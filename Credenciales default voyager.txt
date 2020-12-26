@@ -1,0 +1,14 @@
+email: admin@admin.com
+password: password
+
+nueva:
+info@xerintel.es
+09....5
+
+
+composer install
+composer require laravel/helpers
+composer require tcg/voyager
+php artisan voyager:install --with-dummy
+
+php artisan storage:link
