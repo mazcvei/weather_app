@@ -47,8 +47,9 @@
                                     @csrf
                                 </form>
 
+                            @if(auth()->user()->role_id==1)
                             <a class="dropdown-item" href="{{route('voyager.dashboard')}}">Intranet</a>
-
+                            @endif
                         </div>
 
                     </li>

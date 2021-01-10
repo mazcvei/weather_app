@@ -3,13 +3,19 @@ password: password
 
 
 
-
+cp .env.example .env
 composer install
-composer require laravel/helpers
-composer require tcg/voyager
+php artisan key:generate
+
+composer require laravel/helpers **
+composer require tcg/voyager  **
+
 php artisan voyager:install --with-dummy
 
 php artisan storage:link
 
-composer require laravel/ui:^2.4
-php artisan ui vue --auth
+composer require laravel/ui:^2.4 **
+php artisan ui vue --auth **
+
+
+** no son necesarios
