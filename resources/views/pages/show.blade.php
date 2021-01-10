@@ -30,8 +30,8 @@ Fecha de creación en Español: $page->fecha
                 @auth
                     @if(Auth::user()->role_id==1)
                         <div class="" style="font-size: 18px">
-                            <span><a href="{{url('intranet/pages/'.$page->id.'/edit')}}" target="_blank"><i class="fa fa-edit">Editar Página</i></a> </span>
-                            <span><a href="{{url('intranet/pages/'.$page->id)}}" target="_blank"><i class="fa fa-edit">Ver Página</i></a> </span>
+                            <span><a href="{{url('admin/pages/'.$page->id.'/edit')}}" target="_blank"><i class="fa fa-edit">Editar Página</i></a> </span>
+                            <span><a href="{{url('admin/pages/'.$page->id)}}" target="_blank"><i class="fa fa-edit">Ver Página</i></a> </span>
                         </div>
 
                     @endif

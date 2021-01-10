@@ -3,6 +3,7 @@
 {{-- Assets y metaetiquetas de cabecera --}}
 @include('layouts.head')
 <body>
+
     @include('layouts.header')
     {{-- Contenido de la página --}}
     <div class="py-4">
@@ -10,10 +11,11 @@
     </div>
 
     {{-- Footer --}}
-    @include('layouts.footer_meta')
+    @include('layouts.scripts')
     @yield('css')
     @yield('styles')
     @yield('style')
+
     @yield('javascript')
 </body>
 </html>

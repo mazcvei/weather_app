@@ -17,10 +17,20 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<!--
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
--->
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.default.min.css')}}">
+
+
+
+<!--    Herramienta de cropado de imagenes-->
+    <link href="{{asset('css/croppie.css')}}"
+          rel='stylesheet'
+          type='text/css'/>
+    <script src="{{asset('js/croppie.min.js')}}"></script>
+
+<!--    Estilos propios-->
     <link href="{{asset('css/custom.css')}}"
           rel='stylesheet'
           type='text/css'/>

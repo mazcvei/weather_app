@@ -13,10 +13,16 @@ use App\Http\Controllers\StudentController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('cropindex','ImageCropController@index')->name('cropimage');;
+
+Route::post('image_crop/upload', 'ImageCropController@upload')->name('image_crop.upload');
+
+
+
 
 Auth::routes();
 
@@ -29,6 +35,8 @@ Route::get('/pagina/{slug}', 'PageController@show')->name('pagina');
 Route::get('/noticias', 'PostController@index')->name('noticias');
 Route::get('/noticias/{id}/{slug?}', 'PostController@show');
 
+
+
 Route::get('/datatables', function(){
     $estudiantes=\App\Student::all();
         return view('datatables',compact('estudiantes'));
@@ -37,6 +45,12 @@ Route::get('/infinitescroll', function(){
     $estudiantes=\App\Student::paginate(6);
     return view('infinitescroll',compact('estudiantes'));
 })->name('infinitescroll');
+
+Route::get('/owl', function(){
+    return view('owl_carousel');
+})->name('owl');
+
+
 
 ## Login Social
 Route::get('/login/{social}', 'Auth\LoginController@socialLogin')->where('social', 'facebook|google|linkedin');

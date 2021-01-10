@@ -10,10 +10,11 @@
                     <div class="card-body">
                         <ul>
                             <li><a href="{{route('datatables')}}">DataTables</a></li>
-                            <li><a href="#">OwlCarousel</a></li>
+                            <li><a href="{{route('owl')}}">OwlCarousel</a></li>
                             <li><a href="{{route('infinitescroll')}}">Infinite Scroll</a></li>
                             <li><a href="{{route('pagina','pagina-de-prueba')}}">Pagina de prueba</a> </li>
                             <li><a href="{{route('pagina','pagina-de-prueba')}}">Noticia de prueba</a> </li>
+                            <li><a href="{{route('cropimage')}}">Crop Imagen</a> </li>
                         </ul>
 
                     </div>
