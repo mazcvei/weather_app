@@ -11,6 +11,7 @@
     </div>
 
     {{-- Footer --}}
+    @include('layouts.footer')
     @include('layouts.scripts')
     @yield('css')
     @yield('styles')
