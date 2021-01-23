@@ -9,7 +9,6 @@
     <div class="py-4">
         @yield('content')
     </div>
-
     {{-- Footer --}}
     @include('layouts.footer')
     @include('layouts.scripts')

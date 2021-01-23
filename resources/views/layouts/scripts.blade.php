@@ -2,6 +2,10 @@
     src="https://code.jquery.com/jquery-3.5.1.js"
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
+<script
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+    integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+    crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
@@ -12,6 +16,7 @@
 <script src="{{asset('js/jquery.jscroll.min.js')}}"></script>
 <script src="{{asset('js/croppie.min.js')}}"></script>
 <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+
 <script>
     $(document).ready(function () {
         //https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html
@@ -136,4 +141,8 @@
         });
 
     });
+</script>
+
+<script>
+    $('#fileupload').fileupload();
 </script>

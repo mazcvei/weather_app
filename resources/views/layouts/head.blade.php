@@ -21,6 +21,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+
 
 
 
