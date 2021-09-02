@@ -15,6 +15,7 @@
                             <li><a href="{{route('pagina','pagina-de-prueba')}}">Pagina de prueba</a> </li>
                             <li><a href="{{route('pagina','pagina-de-prueba')}}">Noticia de prueba</a> </li>
                             <li><a href="{{route('cropimage')}}">Crop Imagen</a> </li>
+                            <li><a href="{{route('uploads')}}">Subida archivos</a> </li>
 
                         </ul>
 
